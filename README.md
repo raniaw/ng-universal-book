@@ -29,10 +29,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Run `ng add @nguniversal/express-engine`
 
-## build
+## Build
 
 Run `npm run build:ssr`
 
-## serve SSR
+## Serve SSR
 
 Run `npm run serve:ssr` for a dev server. Navigate to `http://localhost:4000/`. The app will automatically reload if you change any of the source files.
