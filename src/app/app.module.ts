@@ -20,7 +20,7 @@ import * as fromAuth from './auth/store/auth.reducer';
 @NgModule({
   declarations: [AppComponent, HeaderComponent],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     AppRoutingModule,
     StoreModule.forRoot({ auth: fromAuth.authReducer }),
